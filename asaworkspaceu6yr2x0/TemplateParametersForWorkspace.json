@@ -1,0 +1,57 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "asaworkspaceu6yr2x0"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics1_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=asaworkspaceu6yr2x0.sql.azuresynapse.net;Initial Catalog=sqlpool01"
+		},
+		"CosmosDBLSCustomerProfile_connectionString": {
+			"value": ""
+		},
+		"CosmosDbNoSql1_connectionString": {
+			"value": ""
+		},
+		"asadatalakeu6yr2x0_accountKey": {
+			"value": ""
+		},
+		"asastoreu6yr2x0_connectionString": {
+			"value": ""
+		},
+		"asaworkspaceu6yr2x0-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:asaworkspaceu6yr2x0.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"linkedService1_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=asaworkspaceu6yr2x0.sql.azuresynapse.net;Initial Catalog=SQLPool01;User ID=asa.sql.admin"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://asadatalakeu6yr2x0.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://asadatalakeu6yr2x0.dfs.core.windows.net/"
+		},
+		"asadatalakeu6yr2x0_properties_typeProperties_url": {
+			"value": "https://asadatalakeu6yr2x0.dfs.core.windows.net"
+		},
+		"asakeyvaultu6yr2x0_properties_typeProperties_baseUrl": {
+			"value": "https://asakeyvaultu6yr2x0.vault.azure.net/"
+		},
+		"asaworkspaceu6yr2x0-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://asadatalakeu6yr2x0.dfs.core.windows.net"
+		}
+	}
+}
