@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "select * from  [wwi].CampaignAnalytics\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sql001",
+				"poolName": "sql001"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

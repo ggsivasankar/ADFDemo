@@ -1,0 +1,17 @@
+{
+	"name": "AzureSynapseAnalyticstestTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlpool01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "wwi",
+			"table": "campaign_new"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

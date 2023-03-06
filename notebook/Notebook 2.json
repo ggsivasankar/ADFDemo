@@ -1,0 +1,426 @@
+{
+	"name": "Notebook 2",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "SparkPool01",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "d9532a48-7fde-4f7a-ba0c-3e98109ced39"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"c20f63c4-2578-4b89-af4c-32376f9483de": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "V15fAIjtqtgBAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "93353",
+										"3": "8470e448-1c05-44f6-8a38-65f4addae632",
+										"4": [
+											3525,
+											2055,
+											1497
+										],
+										"5": [],
+										"6": "abb7d794-2bd8-4f62-b61c-21601315c87b",
+										"7": "\"2e01f773-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgCAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "95322",
+										"3": "1951025c-8ec8-4844-9383-0b511026e1fb",
+										"4": [
+											1526,
+											2889,
+											1713,
+											4270,
+											1359,
+											3319,
+											1852,
+											4413,
+											3659
+										],
+										"5": [],
+										"6": "d73e1462-a09d-4c1c-911a-e9e7d5880bbf",
+										"7": "\"2e01f873-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgDAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "96331",
+										"3": "4506402c-33ee-4c76-95e1-f6c543bc4285",
+										"4": [],
+										"5": [
+											{
+												"productId": 3501,
+												"reviewText": "My neighbor Fannie has one of these. She works as a teacher and she says it looks spiky.",
+												"reviewDate": "2020-03-16T22:15:38.496486+00:00"
+											},
+											{
+												"productId": 4492,
+												"reviewText": "It only works when I'm Bahrain.",
+												"reviewDate": "2016-08-07T12:41:15.5865158+00:00"
+											},
+											{
+												"productId": 4246,
+												"reviewText": "one of my hobbies is spearfishing. and when i'm spearfishing this works great.",
+												"reviewDate": "2017-07-19T18:40:45.7123398+00:00"
+											},
+											{
+												"productId": 4489,
+												"reviewText": "heard about this on mbube radio, decided to give it a try.",
+												"reviewDate": "2020-01-22T13:05:53.4752799+00:00"
+											},
+											{
+												"productId": 4712,
+												"reviewText": "I tried to nail it but got strawberry all over it.",
+												"reviewDate": "2016-06-09T04:16:56.8830035+00:00"
+											}
+										],
+										"6": "0d2db82b-5cae-4adb-a476-c725ccaff06a",
+										"7": "\"2e01f973-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgGAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "94292",
+										"3": "c122425c-e988-423a-91d6-39b658b6e43c",
+										"4": [
+											4676,
+											2707,
+											4563,
+											956
+										],
+										"5": [],
+										"6": "fb3219a6-0f0d-48b8-a620-c142f9004d15",
+										"7": "\"2e01fc73-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgHAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "95230",
+										"3": "e07aefca-1818-4bc6-8808-d601784883e4",
+										"4": [
+											44,
+											1430
+										],
+										"5": [
+											{
+												"productId": 4966,
+												"reviewText": "I saw one of these in New Zealand and I bought one.",
+												"reviewDate": "2017-08-31T06:10:22.0298946+00:00"
+											},
+											{
+												"productId": 3966,
+												"reviewText": "My neighbor Forest has one of these. She works as a gardener and she says it looks nude.",
+												"reviewDate": "2017-06-20T08:28:37.3433185+00:00"
+											},
+											{
+												"productId": 4041,
+												"reviewText": "heard about this on timba radio, decided to give it a try.",
+												"reviewDate": "2017-10-25T22:29:06.7611488+00:00"
+											},
+											{
+												"productId": 4696,
+												"reviewText": "This compelling works quite well. It pointedly improves my golf by a lot.",
+												"reviewDate": "2016-11-14T01:03:38.8032112+00:00"
+											},
+											{
+												"productId": 3241,
+												"reviewText": "i use it for 10 weeks when i'm in my sauna.",
+												"reviewDate": "2019-06-17T14:31:03.3518464+00:00"
+											}
+										],
+										"6": "97340581-5e8d-4516-b2f4-3f888c3ec242",
+										"7": "\"2e01fd73-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgJAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "95199",
+										"3": "28e06e51-9b37-462b-8a7f-8c9ecbb577e6",
+										"4": [
+											1120,
+											4060
+										],
+										"5": [
+											{
+												"productId": 2629,
+												"reviewText": "I saw one of these in The Gambia and I bought one.",
+												"reviewDate": "2017-03-25T15:24:29.3853281+00:00"
+											},
+											{
+												"productId": 1868,
+												"reviewText": "My tiger loves to play with it.",
+												"reviewDate": "2019-12-31T09:32:57.4177757+00:00"
+											},
+											{
+												"productId": 4218,
+												"reviewText": "It only works when I'm Juan de Nova Island.",
+												"reviewDate": "2019-10-23T00:18:43.0661199+00:00"
+											}
+										],
+										"6": "59f02317-5f4d-4525-afa6-da144ec503c4",
+										"7": "\"2e01ff73-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgKAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "98300",
+										"3": "173e9f12-580e-4511-a2c5-8224e2c5c901",
+										"4": [
+											3605,
+											2214,
+											3558,
+											676
+										],
+										"5": [
+											{
+												"productId": 1804,
+												"reviewText": "talk about hatred.",
+												"reviewDate": "2017-05-16T18:49:18.1369047+00:00"
+											},
+											{
+												"productId": 1134,
+												"reviewText": "The box this comes in is 3 kilometer by 5 inch and weights 13 ton.",
+												"reviewDate": "2016-10-05T20:29:51.9651895+00:00"
+											},
+											{
+												"productId": 2246,
+												"reviewText": "i use it on Mondays when i'm in my fort.",
+												"reviewDate": "2018-03-23T04:02:53.808249+00:00"
+											}
+										],
+										"6": "9314e717-8727-4736-b591-4b6a840d84f9",
+										"7": "\"2e010074-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgMAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "93173",
+										"3": "b038fa32-7fb9-4d42-993c-228d31d4f30c",
+										"4": [],
+										"5": [
+											{
+												"productId": 4127,
+												"reviewText": "My bass loves to play with it.",
+												"reviewDate": "2018-01-21T21:07:53.793818+00:00"
+											},
+											{
+												"productId": 662,
+												"reviewText": "This Steel works so well. It delightedly improves my football by a lot.",
+												"reviewDate": "2018-01-20T14:40:38.3150583+00:00"
+											},
+											{
+												"productId": 530,
+												"reviewText": "I tried to shred it but got watermelon all over it.",
+												"reviewDate": "2017-08-27T00:41:52.1649453+00:00"
+											}
+										],
+										"6": "ffbad299-6e2e-478d-a2cb-0fbb86160643",
+										"7": "\"2e010274-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgPAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "96182",
+										"3": "eccdd1a7-6bf6-4a06-b925-0be37426aa57",
+										"4": [
+											820,
+											1800,
+											1257,
+											3504,
+											308,
+											1321,
+											4562,
+											2689,
+											4909
+										],
+										"5": [
+											{
+												"productId": 1214,
+												"reviewText": "My co-worker Houston has one of these. He says it looks invisible.",
+												"reviewDate": "2019-02-05T08:44:52.103781+00:00"
+											}
+										],
+										"6": "4fb7d9be-6081-444d-8cb6-cbb425bc1978",
+										"7": "\"2e010574-0000-0c00-0000-63f8defb0000\""
+									},
+									{
+										"0": "V15fAIjtqtgRAAAAAAAAAA==",
+										"1": "1677254396",
+										"2": "97164",
+										"3": "482a5c2b-d884-4fce-ba2d-1702972cf518",
+										"4": [
+											4369,
+											5000,
+											1157,
+											4756
+										],
+										"5": [
+											{
+												"productId": 4874,
+												"reviewText": "talk about sadness.",
+												"reviewDate": "2016-09-15T10:11:42.0100913+00:00"
+											},
+											{
+												"productId": 4994,
+												"reviewText": "This France works so well. It hungrily improves my basketball by a lot.",
+												"reviewDate": "2018-12-16T12:55:14.7373001+00:00"
+											},
+											{
+												"productId": 3698,
+												"reviewText": "heard about this on brazilian radio, decided to give it a try.",
+												"reviewDate": "2018-11-05T05:58:06.8574343+00:00"
+											},
+											{
+												"productId": 4526,
+												"reviewText": "heard about this on mbube radio, decided to give it a try.",
+												"reviewDate": "2016-07-11T07:08:08.4393051+00:00"
+											},
+											{
+												"productId": 1471,
+												"reviewText": "The box this comes in is 3 yard by 6 light-year and weights 15 gram!!!",
+												"reviewDate": "2016-10-19T20:21:43.0949673+00:00"
+											}
+										],
+										"6": "f0dbc10f-a171-4ac1-a71d-305695c3dee1",
+										"7": "\"2e010774-0000-0c00-0000-63f8defb0000\""
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "_rid",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "_ts",
+										"type": "bigint"
+									},
+									{
+										"key": "2",
+										"name": "userId",
+										"type": "bigint"
+									},
+									{
+										"key": "3",
+										"name": "cartId",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "preferredProducts",
+										"type": "ArrayType(LongType,true)"
+									},
+									{
+										"key": "5",
+										"name": "productReviews",
+										"type": "ArrayType(StructType(StructField(productId,LongType,true), StructField(reviewText,StringType,true), StructField(reviewDate,StringType,true)),true)"
+									},
+									{
+										"key": "6",
+										"name": "id",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "_etag",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"1"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/ab71788c-815f-4ff3-90c9-bf9db2e281cf/resourceGroups/data-engineering-synapse-u6yr2x0/providers/Microsoft.Synapse/workspaces/asaworkspaceu6yr2x0/bigDataPools/SparkPool01",
+				"name": "SparkPool01",
+				"type": "Spark",
+				"endpoint": "https://asaworkspaceu6yr2x0.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/SparkPool01",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "2.4",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"collapsed": false
+				},
+				"source": [
+					"# Read from Cosmos DB analytical store into a Spark DataFrame and display 10 rows from the DataFrame\n",
+					"# To select a preferred list of regions in a multi-region Cosmos DB account, add .option(\"spark.cosmos.preferredRegions\", \"<Region1>,<Region2>\")\n",
+					"\n",
+					"df = spark.read\\\n",
+					"    .format(\"cosmos.olap\")\\\n",
+					"    .option(\"spark.synapse.linkedService\", \"CosmosDBLSCustomerProfile\")\\\n",
+					"    .option(\"spark.cosmos.container\", \"OnlineUserProfile01\")\\\n",
+					"    .load()\n",
+					"\n",
+					"display(df.limit(10))"
+				],
+				"execution_count": 5
+			}
+		]
+	}
+}

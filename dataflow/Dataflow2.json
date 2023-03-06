@@ -1,0 +1,61 @@
+{
+	"name": "Dataflow2",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "empinput",
+						"type": "DatasetReference"
+					},
+					"name": "emp"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "output",
+						"type": "DatasetReference"
+					},
+					"name": "payrollemp"
+				}
+			],
+			"transformations": [
+				{
+					"name": "filter1"
+				}
+			],
+			"scriptLines": [
+				"source(output(",
+				"          empid as string,",
+				"          name as string,",
+				"          countr as string,",
+				"          department as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false) ~> emp",
+				"emp filter(department=='HR') ~> filter1",
+				"filter1 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          {PAR1\u0015\u0000\u0015*\u0015.} as string,",
+				"          {\u0015\u0006\u0015\u0000\u0015\u0006\u0015\b\u001c6\u0000(\u00013\u0018\u00011\u0000\u0000\u0000\u0015P\u0002\u0000\u0000\u0000\u0003\u0007\u0001\u0000\u0000\u00001\u0001\u0000\u0000\u00002\u0001\u0000\u0000\u00003\u0015\u0000\u0015B\u0015F} as string,",
+				"          {\u0015\u0006\u0015\u0000\u0015\u0006\u0015\b\u001c6\u0000(\u0004raju\u0018\u0005asmin\u0000\u0000\u0000!�\u0002\u0000\u0000\u0000\u0003\u0007\u0006\u0000\u0000\u0000maheer\u0005\u0000\u0000\u0000asmin\u0004\u0000\u0000\u0000raju\u0015\u0004\u0015\u0012\u0015\u0016L\u0015\u0002\u0015\u0004\u0000\u0000      \u0005\u0000\u0000\u0000india\u0015\u0000\u0015\u0010\u0015\u0014} as string,",
+				"          {\u0015\u0006\u0015\u0004\u0015\u0006\u0015\b\u001c\u0018\u0005india\u0018\u0005india\u0016\u0000(\u0005india\u0018\u0005india\u0000\u0000\u0000\b\u001c\u0002\u0000\u0000\u0000\u0003\u0007\u0000\u0003\u0015\u0000\u0015*\u0015.} as string,",
+				"          {\u0015\u0006\u0015\u0000\u0015\u0006\u0015\b\u001c6\u0000(\u00013\u0018\u00011\u0000\u0000\u0000\u0015P\u0002\u0000\u0000\u0000\u0003\u0007\u0001\u0000\u0000\u00002\u0001\u0000\u0000\u00001\u0001\u0000\u0000\u00003\u0015\u0000\u0015*\u0015.} as string,",
+				"          {\u0015\u0006\u0015\u0000\u0015\u0006\u0015\b\u001c6\u0000(\u00013\u0018\u00011\u0000\u0000\u0000\u0015P\u0002\u0000\u0000\u0000\u0003\u0007\u0001\u0000\u0000\u00002\u0001\u0000\u0000\u00001\u0001\u0000\u0000\u00003\u0015\u0000\u0015:\u0015:} as string,",
+				"          {\u0015\u0006\u0015\u0000\u0015\u0006\u0015\b\u001c6\u0000(\u0007payroll\u0018\u0002HR\u0000\u0000\u0000\u001d\u0014\u0002\u0000\u0000\u0000\u0003\u0007\u0001\u0006\u0004HR\u0001\u00060IT\u0007\u0000\u0000\u0000payroll\u0015\u0002\u0019|H\fspark_schema\u0015\f\u0000\u0015\f%\u0002\u0018\u0005empid%\u0000\u0000\u0015\f%\u0002\u0018\u0004name%\u0000\u0000\u0015\f%\u0002\u0018\u0006countr%\u0000\u0000\u0015\f%\u0002\u0018} as string",
+				"     ),",
+				"     partitionFileNames:['payout.csv'],",
+				"     umask: 0022,",
+				"     preCommands: [],",
+				"     postCommands: [],",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     partitionBy('hash', 1)) ~> payrollemp"
+			]
+		}
+	}
+}
